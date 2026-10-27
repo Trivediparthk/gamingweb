@@ -1,0 +1,25 @@
+﻿Poly Haven wood textures for Royal Wood 3D Chess
+================================================
+
+License: CC0 1.0 Universal (public domain dedication)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Asset 1: White Maple Veneer
+Source: https://polyhaven.com/a/white_maple_veneer
+Downloaded 1K JPG maps:
+- maple_diff_1k.jpg (diffuse/albedo)
+- maple_nor_1k.jpg (normal, OpenGL)
+- maple_rough_1k.jpg (roughness)
+- maple_ao_1k.jpg (ambient occlusion)
+
+Asset 2: American Walnut Veneer
+Source: https://polyhaven.com/a/american_walnut_veneer
+Downloaded 1K JPG maps:
+- walnut_diff_1k.jpg
+- walnut_nor_1k.jpg
+- walnut_rough_1k.jpg
+- walnut_ao_1k.jpg
+
+The maps are used for the chessboard, pieces and wooden furniture. CC0 does
+not require attribution; Poly Haven and the original creators are credited
+here and in THIRD_PARTY_LICENSES.md as good practice.

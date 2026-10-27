@@ -1,0 +1,330 @@
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.18);
+  }
+}
+
+@keyframes orbit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  to {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes art-enter {
+  from {
+    opacity: 0;
+    transform: translateY(30px) rotate(9deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(5deg);
+  }
+}
+
+@keyframes ambient-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-2.5rem, 1.5rem, 0) scale(1.08);
+  }
+}
+
+@keyframes beam-sweep {
+  0%,
+  100% {
+    transform: translateX(-18rem) rotate(22deg);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(30rem) rotate(22deg);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translate3d(0.45rem, -1.1rem, 0);
+    opacity: 0.8;
+  }
+}
+
+@keyframes deck-progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes deck-enter {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.975);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes star-drift {
+  from {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  to {
+    transform: translate3d(2.4rem, -2.4rem, 0) rotate(3deg);
+  }
+}
+
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 650ms var(--ease-out),
+    transform 650ms var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.js [data-reveal].is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.js .hero__status,
+.js .hero h1,
+.js .hero__lede,
+.js .hero__actions,
+.js .hero__stats {
+  opacity: 0;
+  animation: hero-rise 800ms var(--ease-out) forwards;
+}
+
+.js .hero__status {
+  animation-delay: 80ms;
+}
+.js .hero h1 {
+  animation-delay: 150ms;
+}
+.js .hero__lede {
+  animation-delay: 280ms;
+}
+.js .hero__actions {
+  animation-delay: 360ms;
+}
+.js .hero__stats {
+  animation-delay: 440ms;
+}
+
+.js .hero-art {
+  opacity: 0;
+  animation: hero-rise 1000ms 220ms var(--ease-out) forwards;
+}
+
+.hero-art__halo {
+  animation: pulse-soft 7s ease-in-out infinite;
+}
+
+.hero-art__ring {
+  animation: orbit-spin 90s linear infinite;
+}
+
+.hero-card--front {
+  animation: art-enter 1100ms 420ms var(--ease-spring) both;
+}
+
+.hero-card--back {
+  animation: float-soft 8s 1s ease-in-out infinite;
+}
+
+.hero-chip--one {
+  animation: float-soft 6s 800ms ease-in-out infinite;
+}
+
+.hero-chip--two {
+  animation: float-soft 7.5s 1.3s ease-in-out infinite reverse;
+}
+
+.hero-spark {
+  animation: pulse-soft 3.2s ease-in-out infinite;
+}
+
+.hero-spark--two {
+  animation-delay: 900ms;
+}
+.hero-spark--three {
+  animation-delay: 1.5s;
+}
+
+.marquee__inner {
+  animation: marquee 38s linear infinite;
+}
+
+.skeleton {
+  background: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0.035) 20%,
+    rgba(255, 255, 255, 0.075) 40%,
+    rgba(255, 255, 255, 0.035) 60%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+}
+
+.js .arcade-hero__status,
+.js .arcade-hero h1,
+.js .arcade-hero__lede,
+.js .arcade-hero__actions,
+.js .arcade-hero__meta,
+.js .quick-genres {
+  opacity: 0;
+  animation: hero-rise 780ms var(--ease-out) forwards;
+}
+
+.js .arcade-hero__status {
+  animation-delay: 60ms;
+}
+.js .arcade-hero h1 {
+  animation-delay: 120ms;
+}
+.js .arcade-hero__lede {
+  animation-delay: 230ms;
+}
+.js .arcade-hero__actions {
+  animation-delay: 300ms;
+}
+.js .arcade-hero__meta {
+  animation-delay: 360ms;
+}
+.js .quick-genres {
+  animation-delay: 420ms;
+}
+
+.js .game-deck {
+  opacity: 0;
+  animation: deck-enter 900ms 220ms var(--ease-spring) forwards;
+}
+
+.js .hero-quickplay {
+  opacity: 0;
+  animation: hero-rise 760ms 520ms var(--ease-out) forwards;
+}
+
+.fx-orb--one {
+  animation: ambient-drift 15s ease-in-out infinite;
+}
+.fx-orb--two {
+  animation: ambient-drift 19s 2s ease-in-out infinite reverse;
+}
+.fx-ring {
+  animation: orbit-spin 80s linear infinite;
+}
+.fx-beam {
+  animation: beam-sweep 9s ease-in-out infinite;
+}
+.fx-particle {
+  animation: particle-float var(--duration, 7s) var(--delay, 0s) ease-in-out infinite;
+}
+.game-deck__badge i {
+  animation: pulse-soft 2.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .js .hero__status,
+  .js .hero h1,
+  .js .hero__lede,
+  .js .hero__actions,
+  .js .hero__stats,
+  .js .hero-art,
+  .js .arcade-hero__status,
+  .js .arcade-hero h1,
+  .js .arcade-hero__lede,
+  .js .arcade-hero__actions,
+  .js .arcade-hero__meta,
+  .js .quick-genres,
+  .js .game-deck,
+  .js .hero-quickplay {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .hero-art__halo,
+  .hero-art__ring,
+  .hero-card--front,
+  .hero-card--back,
+  .hero-chip,
+  .hero-spark,
+  .marquee__inner,
+  .fx-orb,
+  .fx-ring,
+  .fx-beam,
+  .fx-stars,
+  .fx-particle,
+  .game-deck__badge i,
+  .game-deck__progress span {
+    animation: none !important;
+  }
+
+  .game-deck__progress span {
+    width: 100%;
+    opacity: 0.28;
+  }
+
+  .marquee__inner {
+    transform: none;
+  }
+}

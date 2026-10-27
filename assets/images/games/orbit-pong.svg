@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="art-title">
+  <title id="art-title">Orbit Pong original abstract key art</title>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="720" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c1320"/>
+      <stop offset="1" stop-color="#050812"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(404 250) rotate(90) scale(260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58e5ff" stop-opacity=".16"/>
+      <stop offset=".52" stop-color="#8c70ff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#8c70ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pad" x1="0" y1="132" x2="0" y2="368" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58e5ff" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#a6f2ff"/>
+      <stop offset="1" stop-color="#58e5ff" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="pad2" x1="0" y1="150" x2="0" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8c70ff" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#b9a8ff"/>
+      <stop offset="1" stop-color="#8c70ff" stop-opacity=".1"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#halo)"/>
+  <g fill="none" stroke="#f2f6e8" stroke-opacity=".09">
+    <ellipse cx="400" cy="250" rx="290" ry="185"/>
+    <ellipse cx="400" cy="250" rx="248" ry="158" stroke-dasharray="3 9"/>
+    <path d="M400 25v450" stroke-dasharray="4 9"/>
+  </g>
+  <path d="M147 250c0-76 113-138 253-138s253 62 253 138-113 138-253 138-253-62-253-138Z" fill="none" stroke="#58e5ff" stroke-opacity=".14"/>
+  <circle cx="400" cy="250" r="155" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+  <rect x="124" y="149" width="11" height="202" rx="5.5" fill="url(#pad)"/>
+  <rect x="665" y="181" width="11" height="150" rx="5.5" fill="url(#pad2)"/>
+  <circle cx="505" cy="201" r="31" fill="#58e5ff" opacity=".14" filter="url(#blur)"/>
+  <circle cx="505" cy="201" r="11" fill="#a6f2ff"/>
+  <path d="M466 234c-44 52-47 31-35-12s-35-80-62-49-38 118 18 129 89-31 111-75" fill="none" stroke="#58e5ff" stroke-width="1.5" stroke-dasharray="4 7" opacity=".7"/>
+  <path d="M51 70h41" stroke="#58e5ff" stroke-width="2"/>
+</svg>

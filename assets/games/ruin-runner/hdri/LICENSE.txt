@@ -1,0 +1,12 @@
+Poly Haven HDRI
+================
+
+File: dikhololo_night_1k.hdr
+Asset: Dikhololo Night
+Source: https://polyhaven.com/a/dikhololo_night
+License: CC0 1.0 Universal (public domain dedication)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+Downloaded at 1K HDR resolution from the official Poly Haven download API.
+The HDRI is used only as the PBR environment/reflection map for Ruin Runner 3D;
+the visible sky is an original procedural canvas sky.

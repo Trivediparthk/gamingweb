@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="art-title">
+  <title id="art-title">Logic Tiles original abstract key art</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c1021"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <linearGradient id="lit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#b9a8ff"/>
+      <stop offset="1" stop-color="#5f3fe8"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ddff87"/>
+      <stop offset="1" stop-color="#8fc72b"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(401 250) rotate(90) scale(280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8c70ff" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#8c70ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#halo)"/>
+  <g transform="translate(267 73) rotate(3 133 177)">
+    <g fill="#0c1220" stroke="#ffffff" stroke-opacity=".09">
+      <rect x="0" y="0" width="63" height="63" rx="5"/>
+      <rect x="70" y="0" width="63" height="63" rx="5"/>
+      <rect x="140" y="0" width="63" height="63" rx="5"/>
+      <rect x="210" y="0" width="63" height="63" rx="5"/>
+      <rect x="0" y="70" width="63" height="63" rx="5"/>
+      <rect x="70" y="70" width="63" height="63" rx="5"/>
+      <rect x="140" y="70" width="63" height="63" rx="5"/>
+      <rect x="210" y="70" width="63" height="63" rx="5"/>
+      <rect x="0" y="140" width="63" height="63" rx="5"/>
+      <rect x="70" y="140" width="63" height="63" rx="5"/>
+      <rect x="140" y="140" width="63" height="63" rx="5"/>
+      <rect x="210" y="140" width="63" height="63" rx="5"/>
+      <rect x="0" y="210" width="63" height="63" rx="5"/>
+      <rect x="70" y="210" width="63" height="63" rx="5"/>
+      <rect x="140" y="210" width="63" height="63" rx="5"/>
+      <rect x="210" y="210" width="63" height="63" rx="5"/>
+    </g>
+    <g fill="url(#lit)">
+      <rect x="70" y="0" width="63" height="63" rx="5" opacity=".78"/>
+      <rect x="140" y="70" width="63" height="63" rx="5" opacity=".65"/>
+      <rect x="210" y="140" width="63" height="63" rx="5" opacity=".45"/>
+      <rect x="0" y="140" width="63" height="63" rx="5" opacity=".4"/>
+    </g>
+    <rect x="70" y="140" width="63" height="63" rx="5" fill="url(#lime)"/>
+    <path d="M101.5 147v49M77 171.5h49" stroke="#08120a" stroke-width="1.5" opacity=".45"/>
+    <rect x="211" y="211" width="61" height="61" fill="none" stroke="#c9ff4a" stroke-width="1.5"/>
+    <circle cx="241" cy="241" r="9" fill="#c9ff4a" opacity=".35" filter="url(#blur)"/>
+  </g>
+  <path d="M617 144v80M577 184h80M617 322v60M587 352h60" stroke="#c9ff4a" stroke-opacity=".25"/>
+  <path d="M51 70h41" stroke="#8c70ff" stroke-width="2"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Robloxsplay</title>
+  <defs>
+    <linearGradient id="lg-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111a2b"/>
+      <stop offset="1" stop-color="#070b13"/>
+    </linearGradient>
+    <linearGradient id="lg-mark" x1="18" y1="45" x2="47" y2="19" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8fc72b"/>
+      <stop offset="1" stop-color="#ddff87"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="17" fill="url(#lg-bg)" stroke="#ffffff" stroke-opacity=".15"/>
+  <path d="M21 47V17h13a8.5 8.5 0 0 1 0 17H21m13 0 10 13" fill="none" stroke="url(#lg-mark)" stroke-width="4.6" stroke-linecap="square" stroke-linejoin="miter"/>
+  <circle cx="47.5" cy="16.5" r="3.2" fill="#8c70ff"/>
+  <path d="M11 53h11" stroke="#58e5ff" stroke-width="1.4" stroke-linecap="round" opacity=".65"/>
+</svg>

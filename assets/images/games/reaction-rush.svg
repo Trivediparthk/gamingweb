@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="art-title">
+  <title id="art-title">Reaction Rush original abstract key art</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c1020"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(404 253) rotate(90) scale(270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c9ff4a" stop-opacity=".15"/>
+      <stop offset=".45" stop-color="#8c70ff" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#8c70ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#halo)"/>
+  <g fill="none">
+    <circle cx="404" cy="255" r="209" stroke="#8c70ff" stroke-opacity=".14" stroke-dasharray="2 10"/>
+    <circle cx="404" cy="255" r="172" stroke="#f2f6e8" stroke-opacity=".08"/>
+    <circle cx="404" cy="255" r="132" stroke="#58e5ff" stroke-opacity=".15"/>
+    <circle cx="404" cy="255" r="98" stroke="#8c70ff" stroke-opacity=".24"/>
+    <circle cx="404" cy="255" r="63" stroke="#c9ff4a" stroke-opacity=".44"/>
+  </g>
+  <circle cx="404" cy="255" r="32" fill="#c9ff4a" opacity=".14" filter="url(#blur)"/>
+  <circle cx="404" cy="255" r="23" fill="#c9ff4a"/>
+  <circle cx="404" cy="255" r="8" fill="#f2ffd4"/>
+  <path d="M404 23v55M404 432v45M172 255h-63M699 255h52" stroke="#f2f6e8" stroke-opacity=".16"/>
+  <path d="M184 35v18M175 44h18M601 399v18M592 408h18M615 81v14M608 88h14" stroke="#c9ff4a" stroke-width="1.5" opacity=".55"/>
+  <path d="M51 70h41" stroke="#c9ff4a" stroke-width="2"/>
+</svg>

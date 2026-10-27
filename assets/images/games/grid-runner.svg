@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="art-title">
+  <title id="art-title">Grid Runner original abstract key art</title>
+  <defs>
+    <linearGradient id="bg" x1="100" y1="0" x2="700" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091522"/>
+      <stop offset="1" stop-color="#04070d"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(401 254) rotate(90) scale(300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58e5ff" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#58e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="runner" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a6f2ff"/>
+      <stop offset="1" stop-color="#58e5ff"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+    <pattern id="gridline" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#58e5ff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#halo)"/>
+  <g transform="translate(207 77) skewY(-3)">
+    <rect x="0" y="0" width="386" height="346" fill="url(#gridline)" stroke="#58e5ff" stroke-opacity=".1"/>
+    <path d="M0 40h160v80h80v80h106v40h40" fill="none" stroke="#58e5ff" stroke-opacity=".35" stroke-width="1"/>
+    <path d="M120 0v40h80v80h120v80" fill="none" stroke="#8c70ff" stroke-opacity=".25" stroke-width="1"/>
+    <g fill="#c9ff4a">
+      <path d="m78 104 6 8-6 8-6-8 6-8Z"/>
+      <path d="m196 264 6 8-6 8-6-8 6-8Z"/>
+      <path d="m342 184 6 8-6 8-6-8 6-8Z"/>
+      <path d="m331 325 6 8-6 8-6-8 6-8Z"/>
+    </g>
+    <g fill="#ff8666">
+      <circle cx="171" cy="70" r="9"/>
+      <circle cx="171" cy="70" r="19" fill="none" stroke="#ff8666" stroke-opacity=".25"/>
+      <circle cx="294" cy="217" r="9"/>
+      <circle cx="294" cy="217" r="19" fill="none" stroke="#ff8666" stroke-opacity=".25"/>
+      <circle cx="105" cy="288" r="9"/>
+      <circle cx="105" cy="288" r="19" fill="none" stroke="#ff8666" stroke-opacity=".25"/>
+    </g>
+    <rect x="113" y="205" width="37" height="37" rx="4" fill="#58e5ff" opacity=".2" filter="url(#blur)"/>
+    <rect x="116" y="208" width="31" height="31" rx="3" fill="url(#runner)"/>
+    <path d="M127 218v11h11" fill="none" stroke="#041017" stroke-width="2"/>
+    <rect x="336" y="54" width="50" height="50" fill="none" stroke="#c9ff4a" stroke-width="1.5" stroke-dasharray="5 5"/>
+    <path d="M350 79h22M361 68v22" stroke="#c9ff4a" stroke-width="1.5"/>
+  </g>
+  <path d="M51 70h41" stroke="#58e5ff" stroke-width="2"/>
+</svg>

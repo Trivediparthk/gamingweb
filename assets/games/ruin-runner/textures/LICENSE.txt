@@ -1,0 +1,16 @@
+Poly Haven PBR textures
+========================
+
+License: CC0 1.0 Universal (public domain dedication)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source library: https://polyhaven.com/textures
+
+Shipped 1K JPG maps (diffuse/albedo, normal, roughness, ambient occlusion):
+
+- cobble_diff_1k.jpg, cobble_nor_1k.jpg, cobble_rough_1k.jpg, cobble_ao_1k.jpg
+- darkrock_diff_1k.jpg, darkrock_nor_1k.jpg, darkrock_rough_1k.jpg, darkrock_ao_1k.jpg
+- grass_1k.jpg, grassnor_1k.jpg, grassrough_1k.jpg, grassao_1k.jpg
+
+These maps are used for the Ruin Runner 3D stone causeway, side ground and
+cliff materials. No attribution is required under CC0; the creators are credited
+here and in THIRD_PARTY_LICENSES.md as good practice.

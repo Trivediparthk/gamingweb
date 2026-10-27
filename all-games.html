@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Games — Robloxsplay</title>
+  <meta name="description" content="Browse every Robloxsplay original: arcade, puzzle, action, skill, runner, racing, strategy, sports, adventure, casual and shooting games. Search, filter and play instantly.">
+  <meta name="theme-color" content="#060912">
+  <link rel="canonical" href="https://your-domain.example/all-games.html">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:site_name" content="Robloxsplay">
+  <meta property="og:title" content="All Games — Robloxsplay">
+  <meta property="og:description" content="Twenty-seven browser games, including seventeen in-house originals, a licensed 3D racer and nine authorised MadKidGames games. Search, filter and play instantly.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-domain.example/all-games.html">
+  <meta property="og:image" content="https://your-domain.example/assets/images/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body data-page="games">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/index.html">Home</a><span class="breadcrumbs__sep" aria-hidden="true">/</span><span aria-current="page">All games</span>
+        </nav>
+        <div class="page-hero__grid">
+          <div>
+            <p class="eyebrow" style="margin-top:1.4rem">The full catalogue</p>
+            <h1>All <em>games.</em></h1>
+          </div>
+          <div class="page-hero__copy">
+            <p>Seventeen in-house originals, a licensed 3D racer and nine authorised MadKidGames games. Every third-party embed is listed only with the provider&rsquo;s official code and attribution. Search by name, browse a shelf or sort the collection.</p>
+            <div class="page-hero__meta">
+              <span class="tag">27 games</span>
+              <span class="tag">No accounts</span>
+              <span class="tag">Keyboard + touch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section section--tight" aria-labelledby="catalogue-title">
+      <div class="container">
+        <h2 class="sr-only" id="catalogue-title">Game catalogue</h2>
+
+        <div class="catalog-toolbar" role="search">
+          <form class="catalog-search" data-catalog-search-form>
+            <label class="sr-only" for="catalog-search">Search games by title, category or description</label>
+            <span aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m16 16 4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <input id="catalog-search" type="search" name="q" placeholder="Search the collection" autocomplete="off">
+            <button type="button" aria-label="Clear search" data-clear-search hidden>
+              <svg class="icon" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </button>
+          </form>
+          <div class="catalog-sort">
+            <label for="catalog-sort">Sort by</label>
+            <select id="catalog-sort" data-sort>
+              <option value="curated">Studio order</option>
+              <option value="newest">Newest first</option>
+              <option value="title">Title A–Z</option>
+            </select>
+          </div>
+          <button class="button button--ghost button--small catalog-reset" type="button" data-reset-filters>Reset</button>
+        </div>
+
+        <div class="filter-chips" data-filter-chips aria-label="Filter by category"></div>
+
+        <div class="catalog-meta">
+          <p><strong data-result-count>0 games</strong> <span data-filter-label></span></p>
+          <p class="active-filter" data-active-filter hidden>
+            <span data-active-filter-label></span>
+            <button type="button" data-clear-category>Clear filter</button>
+          </p>
+        </div>
+
+        <div data-catalog-results aria-live="polite"></div>
+        <div data-catalog-empty hidden></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="live-region" class="sr-only" aria-live="polite"></div>
+  <script type="module" src="/assets/js/all-games.js?v=20261027herodeck"></script>
+</body>
+</html>
+

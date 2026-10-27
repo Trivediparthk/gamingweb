@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="art-title">
+  <title id="art-title">Target Tap original abstract key art</title>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="0" x2="730" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a1320"/>
+      <stop offset="1" stop-color="#05080f"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(399 254) rotate(90) scale(280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c9ff4a" stop-opacity=".12"/>
+      <stop offset=".55" stop-color="#58e5ff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#58e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#halo)"/>
+  <g fill="none">
+    <circle cx="230" cy="203" r="81" stroke="#c9ff4a" stroke-opacity=".8"/>
+    <circle cx="230" cy="203" r="58" stroke="#c9ff4a" stroke-opacity=".35"/>
+    <circle cx="230" cy="203" r="31" stroke="#c9ff4a" stroke-opacity=".7"/>
+    <circle cx="230" cy="203" r="10" fill="#c9ff4a"/>
+    <circle cx="522" cy="151" r="57" stroke="#58e5ff" stroke-opacity=".55"/>
+    <circle cx="522" cy="151" r="35" stroke="#58e5ff" stroke-opacity=".3"/>
+    <circle cx="522" cy="151" r="7" fill="#58e5ff"/>
+    <circle cx="616" cy="306" r="48" stroke="#8c70ff" stroke-opacity=".55"/>
+    <circle cx="616" cy="306" r="24" stroke="#8c70ff" stroke-opacity=".3"/>
+    <circle cx="616" cy="306" r="6" fill="#8c70ff"/>
+    <circle cx="361" cy="328" r="39" stroke="#c9ff4a" stroke-opacity=".4"/>
+    <circle cx="361" cy="328" r="16" stroke="#c9ff4a" stroke-opacity=".24"/>
+    <circle cx="361" cy="328" r="4" fill="#c9ff4a"/>
+  </g>
+  <path d="M230 203 361 328M522 151 616 306" stroke="#f2f6e8" stroke-opacity=".08" stroke-dasharray="3 8"/>
+  <circle cx="230" cy="203" r="96" fill="none" stroke="#c9ff4a" stroke-opacity=".17" filter="url(#blur)"/>
+  <path d="M704 78a251 251 0 0 1-85 357" fill="none" stroke="#f2f6e8" stroke-opacity=".1" stroke-width="2"/>
+  <path d="M704 78a251 251 0 0 1-55 390" fill="none" stroke="#c9ff4a" stroke-opacity=".4" stroke-width="2" stroke-dasharray="1 8"/>
+  <path d="M51 70h41" stroke="#c9ff4a" stroke-width="2"/>
+</svg>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Robloxsplay</title>
+  <meta name="description" content="Contact the Robloxsplay studio about the games, a bug, an accessibility issue, licensing or a game submission.">
+  <meta name="theme-color" content="#060912">
+  <link rel="canonical" href="https://your-domain.example/contact.html">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:site_name" content="Robloxsplay">
+  <meta property="og:title" content="Contact Robloxsplay">
+  <meta property="og:description" content="Studio contact for games, bugs, accessibility and licensing.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://your-domain.example/assets/images/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/index.html">Home</a><span class="breadcrumbs__sep" aria-hidden="true">/</span><span aria-current="page">Contact</span>
+        </nav>
+        <div class="page-hero__grid" style="margin-top:1.6rem">
+          <div>
+            <p class="eyebrow">Studio contact</p>
+            <h1>Say <em>hello.</em></h1>
+          </div>
+          <div class="page-hero__copy">
+            <p>Found a bug? Need an accessibility detail? Reviewing a game for licensing? Use the form below. Please include enough detail for us to act.</p>
+            <div class="page-hero__meta">
+              <span class="tag">Bugs and feedback</span>
+              <span class="tag">Licensing</span>
+              <span class="tag">Accessibility</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section section--tight">
+      <div class="container contact-layout">
+        <form class="contact-form" data-contact-form novalidate>
+          <p class="eyebrow">Send a note</p>
+          <h2 style="margin-top:.7rem;font-size:clamp(1.8rem,3vw,2.6rem);letter-spacing:-.035em">What can we help with?</h2>
+          <p class="muted" style="margin:0.7rem 0 1.5rem;font-size:.86rem">Fields marked required are needed to prepare a useful message. This static preview does not transmit form data to a server.</p>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="contact-name">Your name <span aria-hidden="true">*</span></label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" required maxlength="80" placeholder="Name or studio">
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Email address <span aria-hidden="true">*</span></label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="120" placeholder="you@example.com">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="contact-topic">Topic</label>
+            <select id="contact-topic" name="topic">
+              <option>General enquiry</option>
+              <option>Bug report</option>
+              <option>Accessibility feedback</option>
+              <option>Game submission</option>
+              <option>Licensing or permissions</option>
+              <option>Press or partnership</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="contact-message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="contact-message" name="message" required maxlength="2500" placeholder="Include the game name, device/browser and steps to reproduce if relevant."></textarea>
+            <small>Do not include passwords or sensitive personal information.</small>
+          </div>
+
+          <p class="muted" style="font-size:.72rem;line-height:1.6">By preparing this message you agree to our <a href="/privacy-policy.html" style="color:var(--lime)">privacy policy</a>. No data is stored by this page.</p>
+          <button class="button" type="submit" style="margin-top:1rem">Prepare message <span aria-hidden="true">→</span></button>
+          <div class="form-status" data-contact-status role="status" aria-live="polite" hidden></div>
+        </form>
+
+        <aside class="contact-aside" aria-label="Contact information">
+          <div class="contact-panel contact-panel--lime">
+            <p class="eyebrow">Direct channel</p>
+            <h2>Studio inbox</h2>
+            <div data-contact-channel>
+              <p>Studio contact details are being finalised for launch. No message is transmitted by this static preview.</p>
+            </div>
+          </div>
+          <div class="contact-panel">
+            <p class="eyebrow">Game submissions</p>
+            <h2>What we need</h2>
+            <p>Provider name, official embed code or URL, written authorisation, required attribution, and any advertising or branding requirements. Unverified links are not published.</p>
+          </div>
+          <div class="contact-panel">
+            <p class="eyebrow">Good bug reports</p>
+            <h2>Help us reproduce it</h2>
+            <p>Tell us the game, device, browser, what you expected and what happened. A screenshot helps if the issue is visual.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band">
+          <div class="cta-band__inner">
+            <div>
+              <p class="eyebrow eyebrow--plain">While you are here</p>
+              <h2>Play the<br>collection.</h2>
+              <p>Seventeen original games, a licensed 3D racer and nine authorised MadKidGames games, no account required.</p>
+            </div>
+            <a class="button" href="/all-games.html">Browse games <span aria-hidden="true">→</span></a>
+          </div>
+          <span class="cta-band__code" aria-hidden="true">NX / CONTACT</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script type="module" src="/assets/js/contact.js?v=20261027herodeck"></script>
+</body>
+</html>

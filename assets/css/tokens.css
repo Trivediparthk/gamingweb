@@ -1,0 +1,106 @@
+:root {
+  color-scheme: dark;
+
+  --ink-1000: #04060b;
+  --ink-950: #060912;
+  --ink-900: #090d17;
+  --ink-850: #0c1220;
+  --ink-800: #11192a;
+  --ink-700: #19243a;
+  --ink-600: #26334d;
+
+  --paper: #f3f6e9;
+  --text: #eef2e7;
+  --text-soft: #c8cfdd;
+  --muted: #929db1;
+  --faint: #667187;
+
+  --lime: #c9ff4a;
+  --lime-bright: #ddff87;
+  --lime-deep: #8fc72b;
+  --violet: #8c70ff;
+  --violet-soft: #b9a8ff;
+  --cyan: #58e5ff;
+  --cyan-soft: #a6f2ff;
+  --coral: #ff8666;
+
+  --accent: var(--lime);
+  --accent-soft: var(--lime-bright);
+
+  --line: rgba(225, 236, 255, 0.11);
+  --line-strong: rgba(225, 236, 255, 0.2);
+  --line-dark: rgba(4, 7, 13, 0.16);
+
+  --surface: #0a0f1a;
+  --surface-raised: #0e1523;
+  --surface-deep: #070b13;
+  --surface-translucent: rgba(8, 12, 21, 0.82);
+
+  --font-display: "Bahnschrift", "Arial Narrow", "Helvetica Neue Condensed", "Segoe UI", sans-serif;
+  --font-body: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "Cascadia Mono", "SFMono-Regular", "Consolas", monospace;
+
+  --step--1: clamp(0.78rem, 0.75rem + 0.14vw, 0.86rem);
+  --step-0: clamp(0.95rem, 0.91rem + 0.2vw, 1.05rem);
+  --step-1: clamp(1.08rem, 1rem + 0.4vw, 1.3rem);
+  --step-2: clamp(1.35rem, 1.15rem + 1vw, 1.9rem);
+  --step-3: clamp(1.8rem, 1.35rem + 2.2vw, 2.9rem);
+  --step-4: clamp(2.4rem, 1.55rem + 3.8vw, 4.3rem);
+  --step-5: clamp(3.1rem, 1.7rem + 6vw, 6rem);
+  --step-hero: clamp(3.2rem, 1.4rem + 7.4vw, 7.15rem);
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 2.5rem;
+  --space-6: 3rem;
+  --space-7: 4rem;
+  --space-8: 5rem;
+  --space-9: 6.5rem;
+  --space-10: 8rem;
+
+  --container: 82rem;
+  --container-wide: 90rem;
+  --gutter: clamp(1.25rem, 3.6vw, 3.25rem);
+
+  --radius-xs: 0.35rem;
+  --radius-sm: 0.6rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-pill: 999px;
+
+  --ease-out: cubic-bezier(0.18, 0.78, 0.24, 1);
+  --ease-spring: cubic-bezier(0.22, 1.2, 0.36, 1);
+  --duration-fast: 160ms;
+  --duration-base: 280ms;
+  --duration-slow: 620ms;
+
+  --shadow-card: 0 24px 70px rgba(0, 0, 0, 0.34);
+  --shadow-float: 0 36px 100px rgba(0, 0, 0, 0.52);
+  --shadow-lime: 0 12px 42px rgba(201, 255, 74, 0.16);
+
+  --header-height: 5.1rem;
+  --topbar-height: 2rem;
+}
+
+.accent-lime {
+  --accent: var(--lime);
+  --accent-soft: var(--lime-bright);
+}
+
+.accent-cyan {
+  --accent: var(--cyan);
+  --accent-soft: var(--cyan-soft);
+}
+
+.accent-violet {
+  --accent: var(--violet);
+  --accent-soft: var(--violet-soft);
+}
+
+.accent-coral {
+  --accent: var(--coral);
+  --accent-soft: #ffb8a4;
+}
