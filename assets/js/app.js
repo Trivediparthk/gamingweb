@@ -145,7 +145,7 @@ function renderHeroDeck() {
     art.src = game.thumbnail;
     art.alt = game.thumbnailAlt;
     if (badge) badge.lastChild.textContent = hasVideo ? "Provider video preview" : "Featured game";
-    if (playLabel) playLabel.textContent = game.playability === "provider-slow" ? "View provider page" : "Play now";
+    if (playLabel) playLabel.textContent = "Play now";
     if (ready) ready.textContent = game.playability === "provider-slow" ? "Provider preview" : "Ready to play";
     if (video) {
       if (!hasVideo) {
@@ -173,7 +173,7 @@ function renderHeroDeck() {
     time.textContent = `${game.playtime} / ${game.difficulty}`;
     counter.textContent = `${String(index + 1).padStart(2, "0")} / ${String(heroGames.length).padStart(2, "0")}`;
     playLink.href = `/game.html?game=${encodeURIComponent(game.slug)}`;
-    playLink.setAttribute("aria-label", `${game.playability === "provider-slow" ? "View provider page for" : "Play"} ${game.title}`);
+    playLink.setAttribute("aria-label", `Play ${game.title}`);
     panel.setAttribute("aria-labelledby", `deck-tab-${game.slug}`);
     tabs.forEach((tab, tabIndex) => {
       const active = tabIndex === index;

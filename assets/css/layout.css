@@ -2087,10 +2087,18 @@
 
 .game-deck.has-video .game-deck__video {
   opacity: 1;
+  object-fit: contain;
+  object-position: center right;
+  background: transparent;
 }
 
 .game-deck.has-video .game-deck__art {
+  opacity: 0.65;
+}
+
+.game-deck.has-video .game-deck__ready {
   opacity: 0;
+  visibility: hidden;
 }
 .game-deck__art {
   position: absolute;
